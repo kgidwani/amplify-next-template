@@ -58,21 +58,21 @@ backend.addOutput({
             targetLanguage: "es",
           },
           proxy: false,
-          region: backend.auth.stack.region,
+          region: "eu-central-1",
         },
         speechGenerator: {
           defaults: {
             voiceId: "Ivy",
           },
           proxy: false,
-          region: backend.auth.stack.region,
+          region: "eu-central-1",
         },
         transcription: {
           defaults: {
             language: "en-US",
           },
           proxy: false,
-          region: backend.auth.stack.region,
+          region: "eu-central-1",
         },
       },
       identify: {
@@ -83,21 +83,21 @@ backend.addOutput({
           },
           celebrityDetectionEnabled: true,
           proxy: false,
-          region: backend.auth.stack.region,
+          region: "eu-central-1",
         },
         identifyLabels: {
           defaults: {
             type: "ALL",
           },
           proxy: false,
-          region: backend.auth.stack.region,
+          region: "eu-central-1",
         },
         identifyText: {
           defaults: {
             format: "ALL",
           },
           proxy: false,
-          region: backend.auth.stack.region,
+          region: "eu-central-1",
         },
       },
       interpret: {
@@ -106,7 +106,7 @@ backend.addOutput({
             type: "ALL",
           },
           proxy: false,
-          region: backend.auth.stack.region,
+          region: "eu-central-1",
         },
       },
     },
